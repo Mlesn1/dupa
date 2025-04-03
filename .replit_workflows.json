@@ -1,0 +1,11 @@
+{
+  "Start application": {
+    "command": "gunicorn --bind 0.0.0.0:5000 --reuse-port --reload main:app"
+  },
+  "discord_bot_structure": {
+    "command": "ls -la && echo -e \"\n--- Project Structure ---\" && find . -type f -name \"*.py\" | sort"
+  },
+  "Discord Bot": {
+    "command": "python run_discord_bot.py"
+  }
+}

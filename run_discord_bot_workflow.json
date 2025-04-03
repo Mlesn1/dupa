@@ -1,0 +1,4 @@
+{
+  "name": "Run Discord Bot",
+  "command": "python run_discord_bot.py"
+}
